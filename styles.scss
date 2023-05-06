@@ -1,0 +1,261 @@
+
+// start CONTACTANOS Nayeli- ------------------------
+
+.section__contacto{
+    background-image: url(./img/bg_contactanos.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px; 
+    opacity: 0.4;
+    
+}
+
+
+
+
+
+
+
+
+
+// END CONTACTANOS Nayeli- ------------------------
+
+
+// start CONOCE A NUESTROS PARTNERS Nayeli- ------------------------
+
+
+.main__partners{
+    background:linear-gradient(177.96deg, #6F6F6F 1.72%, #FFFFFF 98.63%);
+    height: 700px;
+    font-family:$font-raleway;
+    font-size: 32px;
+
+    .section__paragraph{
+        text-align: center;
+        font-family: $font-abril-fatface;
+        font-size: 32px;
+    }
+
+    .partners__line1{
+        background-color: blueviolet;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 80px;
+
+        .partner__box1{
+            display: flex;
+            background-color: black;
+            color: aliceblue;
+            width: 400px;
+            border-radius: 80px;
+
+            .partner1{
+                margin-left: 10px;
+                margin-top: 7px;
+            }
+
+            .partners__text{
+                margin-top: 28px;
+                margin-left: 80px;
+            }     
+
+        }
+
+        .partner__box2{
+            display: flex;
+            background-color: black;
+            color: aliceblue;
+            width: 400px;
+            border-radius: 80px;
+
+            .partner2{
+                background-color: #6F6F6F;
+                width: 80px;
+                height: 82px;
+                border-radius:60%;
+                margin-left: 10px;
+                margin-top: 7px; 
+
+                .image_partner2{
+                    display: flex;
+                    align-items: center;
+                }  
+            }
+
+            .partners__text{
+                margin-top: 28px;
+                margin-left: 80px;
+            }
+        }
+    }
+
+
+    .partners__line2{
+        background-color:coral;
+        width: 100%;
+        overflow: hidden;
+        height: 100px;
+        display: flex;
+        margin-top: 50px;
+          
+
+        .partner__box3{
+            display: flex;
+            background-color: black;
+            color: aliceblue;
+            width: 340px;
+            border-top-right-radius: 80px;
+            border-bottom-right-radius: 80px;
+            margin-right: 600px;
+           
+
+            .partner3{
+                margin-left: 90px;
+                margin-top: 7px;
+            }
+
+            .partners__text{
+                margin-top: 28px;
+                margin-left: 2px;
+            }
+            
+
+        }
+
+        .partner__box4{
+            display: flex;
+            background-color: black;
+            color: aliceblue;
+            width: 400px;
+            border-radius: 80px;
+           
+
+            .partner4{
+                margin-left: 10px;
+                margin-top: 7px;
+            }
+
+            .partners__text{
+                margin-top: 28px;
+                margin-left: 80px;
+            }
+            
+
+        }
+
+        .partner__box5{
+            display: flex;
+            background-color: black;
+            color: aliceblue;
+            width: 280px;
+            border-top-left-radius: 80px;
+            border-bottom-left-radius: 80px;
+
+            .partner5{
+                margin-left: 10px;
+                margin-top: 7px;
+            }
+
+            .partners__text{
+                margin-top: 28px;
+                margin-left: 80px;
+            }
+            
+
+        }
+    }
+
+    
+    .partners__line3{
+        background-color:aqua;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;   
+        margin-top: 50px;
+
+        .partner__box6{
+            display: flex;
+            background-color: black;
+            color: aliceblue;
+            width: 400px;
+            border-radius: 80px;
+
+            .partner6{
+                margin-left: 10px;
+                margin-top: 7px;
+            }
+            .partners__text{
+                margin-top: 32px;
+                margin-left: 80px;
+            }
+
+        }
+
+        .partner__box7{
+            display: flex;
+            background-color: black;
+            color: aliceblue;
+            width: 400px;
+            border-radius: 80px;
+
+            .partner7{
+                margin-left: 10px;
+                margin-top: 7px;
+            }
+            .partners__text{
+                margin-top: 32px;
+                margin-left: 80px;
+            }
+
+        }
+    }
+
+}
+// END CONOCE A NUESTROS PARTNERS Nayeli- -
+
+// start FOOTER Nayeli- ------------------------
+
+footer{
+    height: 500px;
+    background-image: linear-gradient(0, #6F6F6F 1.72%, #FFFFFF 98.63%);
+    font-family:$font-raleway;
+    
+    .main__footer{
+        display: flex;
+        justify-content: space-around;
+    
+        .left__footer{
+            width: 500px;
+            height: 250px;
+            background-color: aquamarine;   
+        }
+    
+        .social__media__footer{
+            width: 160px;
+            height: 90pxx;
+            background-color:blueviolet ;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .line__rights{
+            
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+    }
+
+    .pwby{
+  
+        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-content: end;
+        margin-top: 140px;
+        font-family:$font-raleway;
+    }
+       
+}
